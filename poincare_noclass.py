@@ -1,13 +1,22 @@
 from tkinter import *
-from PIL import ImageTk, Image
 import mysql.connector
 import csv # comma separated valules
-
+import numpy as np
+import matplotlib.pyplot as plt
+import sys
+from py_pol.jones_vector import Jones_vector, degrees
+from py_pol.stokes import Stokes
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
+from PIL import ImageTk,Image
+from tkinter import messagebox
+from tkinter import ttk
+from tkinter import filedialog
 
 
 root = Tk()
 root.title("Stokes Paramter plotter")
 root.geometry("400x650")
+
 
 
 
