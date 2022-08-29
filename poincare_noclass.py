@@ -17,7 +17,8 @@ root = Tk()
 root.title("Stokes Paramter plotter")
 root.geometry("400x650")
 
-
+test_label = Label(root, text="Test label!!")
+test_label.grid(row=0, column=0, padx=10, pady=10)
 
 
 root.mainloop()
